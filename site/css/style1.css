@@ -1,0 +1,34 @@
+.btn_red {
+					color: red;
+					font-size:38px;
+					cursor:pointer;
+					vertical-align: middle;
+}
+.btn_green {
+					color: green;
+					font-size:38px;
+					cursor:pointer;
+					vertical-align: middle;
+}
+.cont1{
+					text-align: center;
+					color: #2004f3;
+					background-color: #6DF1DB;
+					border: medium solid #031b69;
+					border-radius: 20px;
+					width: 90%;
+					margin: auto;
+					display: inline-block;
+					padding-left: 50px;
+					padding-right: 50px;	
+}
+#graph{
+	width:100%;
+	height: auto;
+}
+canvas#LUXMETRE {
+    width: 90% !important;
+    height: auto !important;
+}
+
+

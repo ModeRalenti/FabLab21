@@ -1,0 +1,26 @@
+
+Ces pages web permettent de se connecter à un "Broker MQTT" ( Serveur de données qui distribue les données qu'il reçoit aux clients abonnés)
+
+Dans la console de votre ordinateur lancer le serveur :
+py -m http-server 80  ( si le port 80 n'est pas disponible sur votre ordinateur choisissez en un autre : 90 par exemple)
+
+Ouvrez ensuite la page dans votre navigateur :
+http://adresse_de_votre_site/
+
+ou http://localhost
+
+Allez dans l'onglet paramètres et connectez-vous au bkoker mqqtt sur lequel sont envoyées les données provenant de votre arduino.
+
+Par défaut le programme se connecte sur les sujets ( topic) suivants :
+
+"FABLAB_21_22/nom_prenom/ledLDR/out/"   (pour recevoir les données de l'arduino connecté)
+
+et envoie des messages sur le topic :
+"FABLAB_21_22/nom_prenom/ledLDR/in/" pour commander l'allumage des leds.
+
+Pour l'accès sur le serveur MQTT il faut un identifiant et mot de passe :
+login :fablab2122
+pwd :2122
+
+Vous pouvez utilisez un broker MQTT différent (certains sont publics) et personnaliser les topics.
+ 
